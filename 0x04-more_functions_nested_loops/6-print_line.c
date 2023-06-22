@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * print_line - printing straight lines
+ * print_line - printing lines
+ * @n: number of times
  *
  * Return: void
  */
@@ -9,9 +10,10 @@
 
 void print_line(int n)
 {
-	int x;
+	int i;
+	int n = 10;
 
-	for (x = 0; x < n; x++)
+	for (i = 0; i < n; i++)
 	{
 		_putchar('_');
 	}
