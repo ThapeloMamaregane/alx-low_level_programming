@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h
+#include "main.h"
 
 /**
 *main - entry point
@@ -23,7 +23,7 @@ int main(void)
 		{
 			printf(" % d fizz \n", i);
 		}
-		else if(i % 5 == 0
+		else if(i % 5 == 0)
 				{
 				printf(" % d buzz \n", i);
 				}else
