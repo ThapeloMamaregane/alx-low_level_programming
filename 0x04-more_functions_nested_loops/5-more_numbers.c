@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * more_numbers - PRINTS x10 numbers,from 0-14
+ * more_numbers - Prints x10 numbers from 0-14
  * Return: no return
  */
 
@@ -14,11 +14,9 @@ int i, j;
 		for (j = 0; j <= 14; j++)
 		{
 			if (j >= 10)
-			{
-				_putchar((j / 10) + '0');
-			}
-			_putchar((i % 10) + '0');
+			_putchar('1');
+			_putchar(j % 10 + '0');
 		}
-		_putchar('\n');
-	}
+			_putchar('\n');
+		}
 }
