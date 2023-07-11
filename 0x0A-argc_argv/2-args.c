@@ -12,7 +12,7 @@ int main(int argc, char **argv)
 
 	for (i = 0; i < argc; i++)
 	{
-		printf("Arguements %d: %s\n", i, argv[i]);
+		printf("%d: %s\n", argv[i]);
 	}
 	return (0);
 }
