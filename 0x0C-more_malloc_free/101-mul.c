@@ -2,7 +2,7 @@
 #include <stdio.h>
 /**
   * _isdigit - tells if the string consists of digits
-  * @argv: pointer 
+  * @argv: pointer
   * Return: return 0 if all digits, 1 if not all digits.
   */
 int _isdigit(char *argv)
@@ -21,8 +21,8 @@ int _isdigit(char *argv)
 }
 /**
   * _atoi - converts a string of ascii digits to the values they represent
-  * @s: pointer 
-  * Return: value 
+  * @s: pointer
+  * Return: value
   */
 int _atoi(char *s)
 {
