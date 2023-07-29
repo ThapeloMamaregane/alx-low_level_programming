@@ -18,8 +18,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	if (s2 == NULL)
 		s2 = "";
 	j = 0;
-	while (s1[l1])
-		l1++;
+	while (s1[j])
+		j++;
 
 	c = malloc(sizeof(*c) * j + n + 1);
 
