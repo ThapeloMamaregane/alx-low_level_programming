@@ -4,7 +4,7 @@
 #include <string.h>
 /**
  * *_realloc - reallocate memory  using malloc and free
- * @ptr: pointer 
+ * @ptr: pointer
  * @old_size: unsigned int type of old memory size
  * @new_size: unsigned int type for new memory size
  * Return: pointer to array
