@@ -9,8 +9,7 @@
  */
 int main(void)
 {
-	int a = 1, b = 2, total = 0;
-	int c;
+	int a = 1, b = 2, total = 0, c;
 
 	while (b < 4000000)
 	{
@@ -19,7 +18,7 @@ int main(void)
 
 		c = b;
 		b += a;
-		a = b;
+		a = c;
 	}
 	printf("%d\n", total);
 	return (0);
