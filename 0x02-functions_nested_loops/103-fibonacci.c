@@ -9,7 +9,8 @@
  */
 int main(void)
 {
-	int a = 1, b = 2, total = 0, c;
+	int a = 1, b = 2, total = 0;
+	int c;
 
 	while (b < 4000000)
 	{
