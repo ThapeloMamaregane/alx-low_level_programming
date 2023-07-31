@@ -1,8 +1,9 @@
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 /**
-  * _isdigit - tells if the string consists of digits
-  * @argv: pointer
+  * _isdigit - checks for digits
+  * @argv: input array of string args
   * Return: return 0 if all digits, 1 if not all digits.
   */
 int _isdigit(char *argv)
@@ -21,8 +22,8 @@ int _isdigit(char *argv)
 }
 /**
   * _atoi - converts a string of ascii digits to the values they represent
-  * @s: pointer
-  * Return: value
+  * @s: pointer to the source string
+  * Return: value of digits
   */
 int _atoi(char *s)
 {
@@ -42,9 +43,9 @@ int _atoi(char *s)
 }
 /**
   * main - main function call
-  * @argc: argument count
+  * @argc: input count of args
   * @argv: 2D array of arguments
-  * Return: return 0 on success, 98 if fail
+  * Return: return 0 if success, 98 if fails
   */
 int main(int argc, char *argv[])
 {
