@@ -2,7 +2,6 @@
 /**
  * sum_listint - sums the n value of a linked list of listint_t
  * @head: pointer to the head of the list
- *
  * Return: sum of all elements
  */
 int sum_listint(listint_t *head)
@@ -12,7 +11,7 @@ int sum_listint(listint_t *head)
 
 	if (!head)
 		return (0);
-	tmp_h = h;
+	tmp_h = head;
 	while (tmp_h)
 	{
 		sum += tmp_h->n;
