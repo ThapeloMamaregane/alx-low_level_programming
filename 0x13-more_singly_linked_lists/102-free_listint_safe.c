@@ -2,9 +2,9 @@
 
 /**
  * free_listint_safe - Prints a linked list
- * @h: Pointer to address of a linked list
+ * @h: Pointer to pointer to the start of the list
  *
- * Return: Size of list that has been freed
+ * Return: size of list that was freed
  */
 size_t free_listint_safe(listint_t **h)
 {
