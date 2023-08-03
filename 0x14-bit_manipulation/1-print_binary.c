@@ -4,23 +4,22 @@
  * print_binary - prints decimal as binary
  * @n: the number to print
  *
- * Return: NA
+ * Return: void
  */
 void print_binary(unsigned long int n)
 {
-	int print = 0;
-	int i = sizeof(n) * 8;
+	int size = sizeof(n) * 8, printed = 0;
 
-	while (i)
+	while (size)
 	{
-		if (n & 1L << --i)
+		if (n & 1L << --size)
 		{
 			_putchar('1');
-			print++;
+			printed++;
 		}
-		else if (print)
+		else if (printed)
 			_putchar('0');
 	}
-	if (!print)
+	if (!printed)
 		_putchar('0');
 }
