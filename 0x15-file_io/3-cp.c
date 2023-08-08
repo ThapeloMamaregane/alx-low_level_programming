@@ -43,8 +43,8 @@ while (i == 1024)
 		dprintf(STDERR_FILENO, "Error: Can't write to %s\n", argv[2]), exit(99);
 }
 
-if (close(file_from) == -1)
-	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", file_from), exit(100);
+if (close(from_file) == -1)
+	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from_file), exit(100);
 
 if (close(to_file) == -1)
 	dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", to_file), exit(100);
